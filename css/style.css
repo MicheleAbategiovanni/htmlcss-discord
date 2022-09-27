@@ -1,6 +1,5 @@
 :root{
     --color-font: #23272A;
-
 }
 
 *{
@@ -14,20 +13,18 @@ body{
 }
 
 nav{
-    background-color: rgb(173, 216, 230); 
     padding: 20px 0;
+    background-color: rgb(38, 94, 232);
 }
 
 nav div ul{
     display: flex;
     list-style: none;
-    border: 1px dashed black;
 }
 
 nav div ul li{
     padding: 0 20px;
 }
-
 
 section:nth-child(2n+2){
     background-color: rgb(211, 211, 211);
@@ -36,7 +33,6 @@ section:nth-child(2n+2){
 section{
     padding: 40px 0;
 }
-
 
 section .container-section div:first-child{
     flex-basis: 60%;
@@ -99,6 +95,20 @@ footer div ul li{
     color: white;
 }
 
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
 h4{
     color: rgb(114, 137, 218);
     padding-bottom: 10px
@@ -107,12 +117,13 @@ h4{
 .navbar ul li a{
     text-decoration: none;
     color: white;
+    font-size: 1.2rem;
 }
 
-.container-header h1,p{
+.container-header p{
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 35px 0 20px 0;
 }
 
 .container-download{
@@ -124,7 +135,7 @@ h4{
     text-decoration: none;
     border: 1px solid transparent;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .bottom.black{
@@ -164,23 +175,19 @@ h4{
     display: flex;
     justify-content: space-between;
     padding: 0 5px;
-    border: 1px dashed black;
-    background-color: rgb(218, 165, 32);
+    align-items: center;
 } 
 
-.header{
-    background-color: rgb(0, 0, 139);
-    padding: 40px 0;
+.main-header{
+    background-image: url(../img/jumbo.png);
+    padding-top: 150px;
+    height: 620px;
+    background-size: cover;
 }
 
 .container-header{
-    background-color: rgb(238, 130, 238);
     width: 920px;
-    
-    /* ALTEZZA DATA SOLO PER MANCANZA CONTENUTO ! */
-    height: 300px;
     margin: auto;
-    border: 1px dashed black;
 }
 
 .container-section{
