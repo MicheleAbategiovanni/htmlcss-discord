@@ -32,18 +32,15 @@ section:nth-child(2n+2){
 
 section{
     padding: 40px 0;
+    margin-bottom: 150px;
 }
 
 section .container-section div:first-child{
     flex-basis: 60%;
-    background-color: rgb(30, 144, 255);
-    border: 1px dashed black;
 }
 
 section .container-section div:last-child{
     flex-basis: 40%;
-    background-color: rgb(255, 192, 203);
-    border: 1px dashed black;
 }
 
 section:nth-child(2n+2) .container-section{
@@ -52,9 +49,6 @@ section:nth-child(2n+2) .container-section{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    
-    /* ATTENZIONE ALTEZZA ASSEGNATA PER MANCANZA CONTENUTO ! */
-    height: 400px;
 }
 
 footer{
@@ -62,9 +56,7 @@ footer{
 }
 
 footer .footer-nav div:first-child{
-    background-color: rgb(240, 128, 128);
     flex-basis: 24%;
-    border: 1px dashed black;
 }
 
 hr{
@@ -72,7 +64,6 @@ hr{
 }
 
 footer .footer div:first-child{
-    background-color: rgb(240, 128, 128);
     border: 1px dashed black;
 }
 
@@ -105,6 +96,10 @@ h2{
     font-size: 2.5rem;
 }
 
+h3{
+    font-size: 2rem;
+}
+
 p{
     font-size: 1.5rem;
 }
@@ -112,6 +107,10 @@ p{
 h4{
     color: rgb(114, 137, 218);
     padding-bottom: 10px
+}
+
+img{
+    width: 100%;
 }
 
 .navbar ul li a{
@@ -134,8 +133,8 @@ h4{
 .bottom{
     text-decoration: none;
     border: 1px solid transparent;
-    border-radius: 20px;
-    padding: 15px;
+    border-radius: 40px;
+    padding: 15px 25px;
 }
 
 .bottom.black{
@@ -164,9 +163,8 @@ h4{
 }
 
 .footer-nav div{
-    background-color: skyblue;
     flex-basis: 20%;
-    border: 1px dashed white;
+
 }
 
 .navbar{
@@ -196,9 +194,6 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-    /* ATTENZIONE ALTEZZA ASSEGNATA PER MANCANZA CONTENUTO ! */
-    height: 400px;
 }
 
 .footer{
@@ -214,11 +209,9 @@ h4{
 
 .container-box{
     width: 920px;
-    margin: auto;
-    background-color: green;
-    border: 1px dashed black;
-    /* ATTENZIONE ALTEZZA ASSEGNATA PER MANCANZA CONTENUTO ! */
-    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .footer-nav{
@@ -246,4 +239,23 @@ h4{
     background-color: rgb(114, 137, 218);  
     padding: 5px;
     color: white;
+}
+
+.img-stars{
+    width: 73%;
+    margin-bottom: -30px;
+}
+
+.container-download-main{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.violet-large{
+    background-color: rgb(114, 137, 218);  
+    color: white;
+}
+
+.footer-nav h3{
+    color: rgb(114, 137, 218);
 }
