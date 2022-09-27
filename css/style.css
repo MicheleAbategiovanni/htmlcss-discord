@@ -216,12 +216,9 @@ img{
 
 .footer-nav{
     width: 920px;
-
-    /* ALTEZZA STATICA ! */
-    height: 400px;
-    
+    align-items: baseline;
     margin: auto;
-    padding: 5px 0 25px 0;
+    padding: 50px 0 25px 0;
     display: flex;
     flex-direction: row;
 }
@@ -258,4 +255,15 @@ img{
 
 .footer-nav h3{
     color: rgb(114, 137, 218);
+    font-size: 1.7rem;
+}
+
+.footer-info{
+    padding: 10px;
+    margin-right: 70px;
+}
+
+.container-info{
+    color: white;
+    padding: 10px 0;
 }
