@@ -94,6 +94,7 @@ h1{
 
 h2{
     font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 h3{
@@ -284,3 +285,14 @@ img{
 /* .footer-languages > * {
     margin-right: 5px;
 } */
+
+
+.container-section > div > p,
+.container-box > p{
+    color:black;
+    font-size: 1.4rem;
+}
+
+.text-section{
+    padding: 25px;
+}
