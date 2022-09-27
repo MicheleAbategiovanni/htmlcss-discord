@@ -263,7 +263,23 @@ img{
     margin-right: 70px;
 }
 
-.container-info{
+.footer-languages{
+    padding-top: 15px;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
 }
+
+.footer-icon{
+    padding-top: 10px;
+    color: white;
+    gap: 15px;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+/* POSSIBILITA' DI DIRE TUTTI(*) I FIGLI DIRETTI DI FOOTER-LANGUAGES */
+/* .footer-languages > * {
+    margin-right: 5px;
+} */
