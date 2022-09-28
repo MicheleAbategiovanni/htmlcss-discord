@@ -118,6 +118,10 @@ i{
     color: white;
 }
 
+.bottom.white i{
+    color: black;
+}
+
 .navbar ul li a{
     text-decoration: none;
     color: white;
