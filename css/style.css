@@ -114,6 +114,10 @@ img{
     width: 100%;
 }
 
+i{
+    color: white;
+}
+
 .navbar ul li a{
     text-decoration: none;
     color: white;
